@@ -2,8 +2,8 @@ module github.com/senforsce/mathfighter
 
 go 1.23.3
 
-replace github.com/senforsce/tndr0cean/ => ./tndr0cean
-replace github.com/senforsce/o/ => ./o
+replace github.com/senforsce/tndr0cean/ => ../tndr0cean
+replace github.com/senforsce/o/ => ../o
 
 
 require (
