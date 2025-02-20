@@ -1,0 +1,7 @@
+package pages
+
+import "github.com/senforsce/tndr0cean/router"
+
+t1 IndexPage(c *router.Context) {
+    <h1>hello</h1>
+}

@@ -1,0 +1,102 @@
+package pages
+
+t1 HTMX() {
+    <div id="timer"><progress min="0" max="100" step="10" /></div>
+    <div id="progress"><progress min="0" max="100" step="10" /></div>
+
+    <section id="lesson1" class="lesson">
+        <article class="slide">
+            <h1>First Game: What is a Number</h1>
+            <p>Let's start with Numbers, as they were originally, before the invention of the number systems. <br />
+            Lets reason about what makes the core of what constitutes a number along with its arithmetic.
+            To show you that maths is simple when you understand the foundation, and maybe you will be able to do complex math arithmetics by 
+            by subutizing the answer rather than spending too much time.</p>
+        </article>*
+        <article class="slide">
+            <h2>The Most important objects in mathematics are the numbers</h2>
+            <h2>We often forget that they were here for a thousand years, and they are a complex technology by itself</h2>
+            <h2>Let's not be too complicated, Let's start with an Empty Page:</h2>
+            <div class="board">
+                <p><span>I</span><span>One</span></p>
+                <p><span>II</span><span>Two</span></p>
+                <p><span>III</span><span>Three</span></p>
+                <p><span>IIII</span><span>Four</span></p>
+                <p><span>IIIII</span><span>Five</span></p>
+                <p class="definition">A <span class="underline">Natural Number</span>, is a string of "one"</p>
+                <p class="axiom">The Successor function S() adds "one" to the input such as S(I)=II ; S(II)=III</p>
+            </div>
+            <div class="subtitle">
+                <p>The starting point is an empty page, Nothing... This is how we start with Mathematics, With Nothing</p>        
+                <p>Now we want to deduce something,</p>
+            </div>
+            <div class="subtitle">
+                <p>There is our symbol for "something" ; it represents a single entity and we will call it : "One"</p>
+                <p>So we have had nothing before, now we have a single entity, it 's a stoke on a board, but we could have used a dot or a circle or a rock</p>        
+                <p>But lets agree it's a little stroke</p>
+            </div>
+            <div class="subtitle">
+                <p>Then the next idea is the idea of 'adding' "one" to itself</p>
+                <p>One - and another one, in a number which we will call two</p>
+                <p>And then we can continue doing the same operation, generating "three" "four" "five" ...</p>
+                <p>So we do not assume the current indu arabic system yet, as this is a much more sofisticated system
+                compared to where we are right now, for for now, the only thing that defines a  number is a string of "one"</p>
+            </div>
+            <div class="Subtitle">
+                <p>Mathematical objects are all based on the natural number, and we'll conotinue building on these objects from the round up</p>
+            </div>
+            
+        </article>
+        <article>
+            <header><h3>A few Observations</h3></header>
+            <p>A natural number form a sequence (of "ones") they are naturally ordered</p>
+            <p>So we can define a successor function like below</p>
+            <div class="board">
+                <p class="axiom">The Successor function S() adds "one" to the input such as S(I)=II ; S(II)=III</p>
+                <p class="solve">We can associate a stroke, on the floor associated with each wolf we see, or carry as many pebbles as the wolves we see</p>
+            </div>
+
+            <div class="Subtitle">
+                <p>This is the first exemple of a mathematical operation</p>
+            </div>
+
+            <div class="Subtitle">
+                <p>Next is the Concept of Counting, let's say we want to alert our family we we way a pack of wolves, how to you, transpose the informations, ? how you knoa ?</p>
+            </div>
+
+            <div class="Subtitle">
+                <p>Next is the Concept of Counting, let's say we want to alert our family we we way a pack of wolves, how to you, transpose the informations, ? how you knoa ?</p>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="game1" class="game">
+        <article>
+        <!-- Show a Board with squares and triangles and cound both elements -->
+        <p class="subtitle">Once you counted both squares and triangles, we ask you
+        But what about the total ?
+        Go back there and come with the total
+        </p>
+       <p>
+       Next the accountant of the village wants to know, which sells most, and asks you, if you have more
+       triangles or squares. <!-- show testing inequalities -->
+       </p>
+        <!-- show adding numbers -->*
+        <p class="subtitle">But you're not stupid, you know that once you have the numbers of each, you can have the number of the total
+        By actually adding the numbers you have
+        </p>
+        </article>
+    </section>
+
+    <div class="answers hidden">
+        <section id="answers_1" class="answer">
+            <article>
+            </article>
+        </section>
+
+        <section id="explanations_1" class="explanations">
+            <article>
+            </article>
+        </section>
+    </div>
+}

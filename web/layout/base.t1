@@ -1,0 +1,104 @@
+package layout
+
+import (
+  "github.com/senforsce/o/tr"
+	"github.com/senforsce/tndr0cean/router"
+)
+
+t1 Base(c *router.Context) {
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>{ tr.Tr("sen:MarketingPageTitle", c) }| Maths Fighter</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="description" content=""/>
+        <meta name="author" content="Senforsce (Abdoul Sy)"/>
+        <meta name="color-scheme" content="dark light"/>
+        <link rel="icon" type="image/png" href="/static/favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Handjet:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.6.0/d3.min.js"></script>
+			  <script src={ c.Get("se:HTMXUrl").(string) } defer></script>
+        <script type="application/ld+json">
+        {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://senforsce.com/mathsfighter",
+    "accessMode": ["textual", "visual"],
+    "accessibilityAPI": "ARIA",
+    "accessibilityControl": ["fullKeyboardControl", "fullMouseControl"],
+    "accessModeSufficient": [
+      {
+        "@type": "ItemList",
+        "itemListElement": ["textual", "visual"],
+        "description": "Text and images"
+      },
+      {
+        "@type": "ItemList",
+        "itemListElement": ["textual"],
+        "description": "Text with textual alternatives and descriptions for images"
+      }
+    ],
+    "author": {
+      "@type": "Person",
+      "givenName": "Abdoul",
+      "familyName": "Sy"
+    },
+    "inLanguage": "en-GB",
+    "isFamilyFriendly": "true",
+    "accessibilityHazard": ["noFlashingHazard", "noMotionSimulationHazard", "noSoundHazard"],
+    "potentialAction": {
+      "@type": "InteractAction",
+      "target": "https://senforsce.com/contact",
+      "result": "email"
+    },
+    "version": "0.1.2"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "givenName": "Abdoul",
+    "familyName": "Sy",
+    "gender": "Male",
+    "hasOccupation": [
+      {
+        "@type": "Occupation",
+        "name": "Full Stack Web Engineer",
+        "description": "The web consist in various fields, Front-End, Back-End, DevOps, DevSecOps, a full stack operates in all those fields",
+        "estimatedSalary": "$100000",
+        "occupationLocation": "London, United Kingdom"
+      }
+    ],
+    "nationality": "French",
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "IP-Formation"
+      },
+      {
+        "@type": "Organization",
+        "name": "Gamesys LTD"
+      }
+    ]
+  }
+  </script>
+  <meta name="google-site-verification" content="f"/>
+</head>
+<body>
+    <div id="page">
+        <div id="root" class="root">
+        { children... }
+        </div>
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5Z4RB0E9D"></script>
+        <script>
+            function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","sdfdds")
+        </script>
+        <script>!function(e){function t(t){for(var n,i,l=t[0],f=t[1],a=t[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(t);s.length;)s.shift()();return u.push.apply(u,a||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,l=1;l<r.length;l++){var f=r[l];0!==o[f]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/";var l=this["webpackJsonpnew-website"]=this["webpackJsonpnew-website"]||[],f=l.push.bind(l);l.push=t,l=l.slice();for(var a=0;a<l.length;a++)t(l[a]);var p=f;r()}([])</script>
+    </body>
+</html>
+}

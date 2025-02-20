@@ -1,0 +1,133 @@
+package pages
+
+t1 HTMX() {
+    <div id="timer"><progress min="0" max="100" step="10" /></div>
+    <div id="progress"><progress min="0" max="100" step="10" /></div>
+
+    <section id="lesson1" class="lesson">
+        <article class="slide">
+            <h1>Second Game: Laws for Addition</h1>
+            <p>
+            
+            </p>
+        </article>*
+        <article class="slide">
+            <div class="board">
+                <ul>
+                    <li>
+                        <span>m + n = n + m <br /> (Commutative) </span>
+                        <span>IIIII + II = IIIIIII
+                            <br /> II + IIIII = IIIIIII 
+                        </span>
+                    </li>
+                    <li><span>k + (n + m) = (k + n) + m <br /> (Associative) </span>
+                        <span>II + (III + IIII) = II +(IIIIIII) = IIIIIIIII<br />(II + III) + IIII = (IIIII) + IIII</span></li>
+                    <li><span>n + 1 = S(n)</span><span>Successor</span></li>
+                </ul>
+                <hr />
+                <ul>
+                    <li>[ O O O O ] -> IIII O's in a box [ ]<br />
+                    [ O O O O ]
+                    [ O O O O ] 
+                    There are III Boxes
+                    Total = III x IIII = IIIIIIIIIIII
+                    </li>
+
+                </ul>
+
+
+                <p class="definition">The product of numbers n & m is the string formed by a copy of m for evey I n <br />
+                    This is written n x m
+                </p>
+            </div>
+            <div class="subtitle">
+                <p>The starting point is an empty page, Nothing... This is how we start with Mathematics, With Nothing</p>        
+                <p>Now we want to deduce something,</p>
+            </div>
+            <div class="board">
+                <ul>
+                    <li>
+                        <span>m + n = n + m <br /> (Commutative) </span>
+                        <span>IIIII + II = IIIIIII
+                            <br /> II + IIIII = IIIIIII 
+                        </span>
+                    </li>
+                    <li><span>k + (n + m) = (k + n) + m <br /> (Associative) </span>
+                        <span>II + (III + IIII) = II +(IIIIIII) = IIIIIIIII<br />(II + III) + IIII = (IIIII) + IIII</span></li>
+                    <li><span>n + 1 = S(n)</span><span>Successor</span></li>
+                </ul>
+                <hr />
+                <ul>
+                    <li>[ O O O O ] -> IIII O's in a box [ ]<br />
+                    [ O O O O ]
+                    [ O O O O ] 
+                    There are III Boxes
+                    Total = III x IIII = IIIIIIIIIIII
+                    </li>
+
+                </ul>
+
+
+                <p class="definition">The product of numbers n & m is the string formed by a copy of m for evey I n <br />
+                    This is written n x m
+                </p>
+            </div>
+            <div class="Subtitle">
+                <p>Mathematical objects are all based on the natural number, and we'll conotinue building on these objects from the round up</p>
+            </div>
+            
+        </article>
+        <article>
+            <header><h3>A few Observations</h3></header>
+            <p>A natural number form a sequence (of "ones") they are naturally ordered</p>
+            <p>So we can define a successor function like below</p>
+            <div class="board">
+                <p class="axiom">The Successor function S() adds "one" to the input such as S(I)=II ; S(II)=III</p>
+                <p class="solve">We can associate a stroke, on the floor associated with each wolf we see, or carry as many pebbles as the wolves we see</p>
+            </div>
+
+            <div class="Subtitle">
+                <p>This is the first exemple of a mathematical operation</p>
+            </div>
+
+            <div class="Subtitle">
+                <p>Next is the Concept of Counting, let's say we want to alert our family we we way a pack of wolves, how to you, transpose the informations, ? how you knoa ?</p>
+            </div>
+
+            <div class="Subtitle">
+                <p>Next is the Concept of Counting, let's say we want to alert our family we we way a pack of wolves, how to you, transpose the informations, ? how you knoa ?</p>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="game1" class="game">
+        <article>
+        <!-- Show a Board with squares and triangles and cound both elements -->
+        <p class="subtitle">Once you counted both squares and triangles, we ask you
+        But what about the total ?
+        Go back there and come with the total
+        </p>
+       <p>
+       Next the accountant of the village wants to know, which sells most, and asks you, if you have more
+       triangles or squares. <!-- show testing inequalities -->
+       </p>
+        <!-- show adding numbers -->*
+        <p class="subtitle">But you're not stupid, you know that once you have the numbers of each, you can have the number of the total
+        By actually adding the numbers you have
+        </p>
+        </article>
+    </section>
+
+    <div class="answers hidden">
+        <section id="answers_1" class="answer">
+            <article>
+            </article>
+        </section>
+
+        <section id="explanations_1" class="explanations">
+            <article>
+            </article>
+        </section>
+    </div>
+}
